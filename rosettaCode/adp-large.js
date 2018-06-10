@@ -56,12 +56,6 @@ function getDivisors(num) {
     }
   }
 
-  // for (; i < Math.ceil(num / 500) + 1; i++) {
-  //   //alert('i=' + i + 'mc=' + Math.ceil(num / 2));
-  //   if (num % i === 0 && num !== i) {
-  //     divisors.push(i);
-  //   }
-  // }
   if (num === 20000) {
     //alert(num);
     alert('d=' + divisors);
